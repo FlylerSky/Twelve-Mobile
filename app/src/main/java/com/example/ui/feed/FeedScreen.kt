@@ -156,7 +156,7 @@ fun FeedScreen(
                 LazyColumn(
                     state = listState,
                     modifier = Modifier
-                        .widthIn(max = 680.dp)
+                        .widthIn(max = 560.dp)
                         .fillMaxSize(),
                     contentPadding = PaddingValues(
                         start = 16.dp,

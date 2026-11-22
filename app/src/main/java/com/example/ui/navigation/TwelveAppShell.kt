@@ -246,13 +246,6 @@ fun TwelveAppShell(
             contentWindowInsets = WindowInsets.safeDrawing,
             topBar = {
                 if (showTopLevelChrome) {
-                    val titleText = when (activeTopLevelTab?.route) {
-                        is BlogTabRoute -> stringResource(R.string.blog_title)
-                        is TrendingTabRoute -> stringResource(R.string.trending_title)
-                        is MyProfileTabRoute -> stringResource(R.string.profile_title)
-                        is SettingsTabRoute -> stringResource(R.string.nav_settings)
-                        else -> stringResource(R.string.feed_title)
-                    }
                     val context = LocalContext.current
                     @Suppress("DEPRECATION")
                     val clipboard = LocalClipboardManager.current
@@ -262,7 +255,9 @@ fun TwelveAppShell(
                         TopAppBar(
                             title = {
                                 Text(
-                                    text = titleText,
+                                    text = stringResource(R.string.app_name),
+                                    style = MaterialTheme.typography.titleLarge,
+                                    color = MaterialTheme.colorScheme.primary,
                                     fontWeight = FontWeight.Bold,
                                     maxLines = 1,
                                     overflow = TextOverflow.Ellipsis,

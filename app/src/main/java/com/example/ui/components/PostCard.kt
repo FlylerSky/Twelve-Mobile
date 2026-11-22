@@ -85,7 +85,8 @@ fun PostCard(
             .testTag("post_card_${card.id}"),
         shape = MaterialTheme.shapes.medium,
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.45f)),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp, pressedElevation = 3.dp),
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.28f)),
     ) {
         Column(
             modifier = Modifier.padding(16.dp),
@@ -194,6 +195,12 @@ fun PostCard(
                 onViewsClick = { showViewStats = true },
                 onScoreClick = { showScoreStats = true },
             )
+            TextButton(
+                onClick = { onOpenDetail(card.contentType, card.id) },
+                modifier = Modifier.align(Alignment.End),
+            ) {
+                Text(stringResource(R.string.action_view_post))
+            }
         }
     }
 
