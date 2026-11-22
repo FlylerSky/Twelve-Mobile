@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">Twelve</string>
+
+    <!-- Trạng thái hệ thống & Mạng -->
+    <string name="status_waking_server">Đang đánh thức máy chủ Twelve…</string>
+    <string name="status_waking_server_hint">Máy chủ miễn phí có thể cần tới 60 giây cho lần phản hồi đầu tiên.</string>
+    <string name="status_loading">Đang tải…</string>
+    <string name="status_offline">Không có kết nối mạng. Vui lòng kiểm tra Wi-Fi hoặc dữ liệu di động.</string>
+    <string name="action_retry">Thử lại</string>
+    <string name="action_close">Đóng</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_confirm">Xác nhận</string>
+    <string name="action_sign_out">Đăng xuất</string>
+    <string name="action_back">Quay lại</string>
+
+    <!-- Màn hình chặn khi thiếu google-services.json -->
+    <string name="firebase_missing_title">Thiếu cấu hình Firebase</string>
+    <string name="firebase_missing_desc">Ứng dụng chưa có tệp cấu hình Firebase (google-services.json) cho gói %1$s nên không thể kết nối xác thực và dữ liệu.</string>
+    <string name="firebase_missing_steps">Cách thiết lập:\n1. Mở Firebase Console của dự án Twelve.\n2. Đăng ký ứng dụng Android với mã gói %1$s và thêm SHA-1.\n3. Tải tệp google-services.json đặt vào thư mục app/.\n4. Biên dịch lại ứng dụng.</string>
+    <string name="firebase_missing_read_only_note">Mọi tính năng xác thực và Firestore đều được khoá an toàn cho tới khi cấu hình hợp lệ.</string>
+
+    <!-- Xác thực / Đăng nhập / Kích hoạt -->
+    <string name="auth_login_title">Đăng nhập Twelve</string>
+    <string name="auth_login_subtitle">Kết nối với cộng đồng Twelve bằng tài khoản của bạn.</string>
+    <string name="auth_email_label">Email</string>
+    <string name="auth_password_label">Mật khẩu</string>
+    <string name="auth_show_password">Hiện mật khẩu</string>
+    <string name="auth_hide_password">Ẩn mật khẩu</string>
+    <string name="auth_sign_in_button">Đăng nhập</string>
+    <string name="auth_signing_in">Đang đăng nhập…</string>
+    <string name="auth_register_link">Chưa có tài khoản? Đăng ký trên web</string>
+    <string name="auth_forgot_password_link">Quên mật khẩu?</string>
+    <string name="auth_guest_browse">Tiếp tục xem không cần đăng nhập</string>
+    <string name="auth_empty_credentials">Vui lòng nhập đầy đủ email và mật khẩu.</string>
+    <string name="auth_invalid_email">Địa chỉ email không đúng định dạng.</string>
+    <string name="auth_error_invalid_credentials">Email hoặc mật khẩu không đúng.</string>
+    <string name="auth_error_too_many_requests">Bạn thử quá nhiều lần. Vui lòng đợi một lát rồi thử lại.</string>
+    <string name="auth_error_network">Lỗi kết nối mạng khi đăng nhập. Vui lòng thử lại.</string>
+    <string name="auth_error_generic">Đăng nhập thất bại. Vui lòng thử lại.</string>
+
+    <!-- Tài khoản Pending & Chặn -->
+    <string name="auth_verify_title">Xác minh email để kích hoạt</string>
+    <string name="auth_verify_message">Tài khoản %1$s đang ở trạng thái chờ kích hoạt. Vui lòng mở liên kết xác minh trong hộp thư (kể cả thư rác), sau đó bấm nút bên dưới.</string>
+    <string name="auth_verify_check_button">Tôi đã xác minh</string>
+    <string name="auth_verify_resend_button">Gửi lại email xác minh</string>
+    <string name="auth_verify_resent_ok">Đã gửi lại email xác minh. Vui lòng kiểm tra hộp thư.</string>
+    <string name="auth_verify_not_yet">Email vẫn chưa được xác minh. Hãy bấm liên kết trong thư rồi thử lại.</string>
+    <string name="auth_account_blocked_title">Không thể truy cập tài khoản</string>
+    <string name="auth_account_suspended_default">Tài khoản đã bị tước quyền truy cập.</string>
+    <string name="auth_account_deleting_default">Tài khoản đang được xoá.</string>
+    <string name="auth_session_expired">Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.</string>
+    <string name="auth_reauth_title">Nhập lại mật khẩu</string>
+    <string name="auth_reauth_description">Thao tác nhạy cảm yêu cầu xác nhận lại mật khẩu của bạn.</string>
+
+    <!-- Lỗi mạng / HTTP chung -->
+    <string name="error_timeout">Máy chủ phản hồi chậm. Vui lòng thử lại sau giây lát.</string>
+    <string name="error_rate_limited">Bạn thao tác quá nhanh. Vui lòng đợi %1$d giây rồi thử lại.</string>
+    <string name="error_rate_limited_generic">Bạn thao tác quá nhanh. Vui lòng đợi một lát rồi thử lại.</string>
+    <string name="error_server_generic">Đã có lỗi từ máy chủ (mã %1$d). Vui lòng thử lại.</string>
+    <string name="error_unknown">Đã xảy ra lỗi không xác định. Vui lòng thử lại.</string>
+    <string name="error_browser_unavailable">Không tìm thấy trình duyệt để mở liên kết.</string>
+
+    <!-- Điều hướng chính -->
+    <string name="nav_feed">Bảng tin</string>
+    <string name="nav_blog">Blog</string>
+    <string name="nav_trending">Xu hướng</string>
+    <string name="nav_profile">Hồ sơ</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="theme_system">Theo hệ thống</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+    <string name="guest_banner_notice">Đăng nhập để thích, bình luận và viết bài mới.</string>
+    <string name="m0_check_health_button">Kiểm tra kết nối máy chủ</string>
+    <string name="m0_health_ok">Máy chủ hoạt động bình thường (phiên bản %1$s)</string>
+
+    <!-- Bảng tin, Thẻ bài viết & Blog -->
+    <string name="feed_title">Bảng tin Twelve</string>
+    <string name="blog_title">Blog Twelve</string>
+    <string name="feed_empty_posts">Chưa có bài viết nào.</string>
+    <string name="feed_empty_blogs">Chưa có bài blog nào.</string>
+    <string name="action_refresh">Làm mới</string>
+    <string name="action_load_more">Tải thêm</string>
+    <string name="action_view_post">Xem bài</string>
+    <string name="label_pinned">Đã ghim</string>
+    <string name="label_edited">Đã chỉnh sửa</string>
+    <string name="label_anonymous_author">Người dùng đã xóa</string>
+    <string name="label_no_more_items">Đã hiển thị tất cả</string>
+
+    <!-- Chỉ số & Thống kê -->
+    <string name="metric_like">Thích</string>
+    <string name="metric_dislike">Không thích</string>
+    <string name="metric_comment">Bình luận</string>
+    <string name="metric_view">Lượt xem</string>
+    <string name="metric_share">Chia sẻ</string>
+    <string name="metric_score">Điểm bài viết</string>
+    <string name="view_stats_title">Thống kê lượt xem</string>
+    <string name="view_stats_total">Tổng lượt xem</string>
+    <string name="view_stats_human">Người dùng</string>
+    <string name="view_stats_ai">View Bot A.I</string>
+    <string name="score_stats_title">Điểm bài viết</string>
+    <string name="score_stats_total">Tổng điểm</string>
+    <string name="score_weight_view">Lượt xem × +1</string>
+    <string name="score_weight_like">Thích × +2</string>
+    <string name="score_weight_dislike">Không thích × -2</string>
+    <string name="score_weight_comment">Bình luận × +3</string>
+    <string name="score_weight_share">Chia sẻ × +4</string>
+
+    <!-- Chi tiết bài viết, HTML nhúng & Bình luận -->
+    <string name="detail_post_title">Bài viết</string>
+    <string name="detail_blog_title">Bài blog</string>
+    <string name="detail_embed_card_title">Nội dung nhúng bên ngoài</string>
+    <string name="detail_embed_open_link">Mở liên kết</string>
+    <string name="detail_embed_open_short">Mở</string>
+    <string name="detail_invalid_link">Liên kết không hợp lệ hoặc không được hỗ trợ.</string>
+    <string name="comments_section_title">Bình luận (%1$s)</string>
+    <string name="comments_empty">Chưa có bình luận nào.</string>
+    <string name="comments_load_more">Xem thêm bình luận</string>
+    <string name="comments_loading">Đang tải bình luận…</string>
+
+    <!-- Hồ sơ công khai & Hộp Xem thêm -->
+    <string name="profile_title">Hồ sơ</string>
+    <string name="profile_tab_home">Trang chủ</string>
+    <string name="profile_tab_posts">Bài viết</string>
+    <string name="profile_tab_blog">Blog</string>
+    <string name="profile_more_button">Xem thêm</string>
+    <string name="profile_badges_title">Huy hiệu</string>
+    <string name="profile_pinned_empty">Chưa có bài viết nào được ghim.</string>
+    <string name="profile_posts_empty">Người dùng này chưa có bài viết nào.</string>
+    <string name="profile_blogs_empty">Chưa có bài blog nào được xuất bản.</string>
+    <string name="profile_more_empty_other">Người dùng này chưa chia sẻ thông tin mở rộng nào.</string>
+    <string name="profile_more_empty_own">Bạn chưa bật mục thông tin nào để hiển thị.</string>
+    <string name="profile_more_own_hint">Đây là những gì người khác thấy ở hộp này. Bạn có thể chọn mục hiển thị trong Cài đặt.</string>
+    <string name="profile_achievements_title">Thành tích</string>
+    <string name="profile_stat_score">Điểm tài khoản</string>
+    <string name="profile_stat_top10">Vào top 10 tuần</string>
+    <string name="profile_stat_top3">Trong top 3</string>
+    <string name="profile_stat_first">Hạng 1 tuần</string>
+    <string name="profile_best_week">Hạng cao nhất: hạng %1$d · %2$s (%3$s)</string>
+    <string name="profile_recent_weeks">Các tuần gần đây lọt top 10</string>
+    <string name="profile_no_weekly">Chưa lọt top 10 tăng điểm tuần nào ở trang Xu hướng.</string>
+    <string name="profile_sign_in_prompt">Đăng nhập để xem hồ sơ của chính bạn.</string>
+    <string name="profile_uid_copied">Đã sao chép UID.</string>
+    <string name="profile_copy_uid_desc">Sao chép UID</string>
+    <string name="profile_copy_link_desc">Sao chép liên kết hồ sơ</string>
+    <string name="profile_link_copied">Đã sao chép liên kết hồ sơ.</string>
+    <string name="profile_pinned_section_title">Bài viết đã ghim</string>
+
+    <!-- Xu hướng & Tìm kiếm -->
+    <string name="trending_title">Xu hướng</string>
+    <string name="trending_tab_users">Người dùng</string>
+    <string name="trending_tab_hashtag">Hashtag</string>
+    <string name="trending_users_weekly">Tuần này</string>
+    <string name="trending_users_alltime">Toàn thời gian</string>
+    <string name="trending_mode_classic">Cổ điển</string>
+    <string name="trending_mode_advanced">Nâng cao</string>
+    <string name="trending_section_weekly">Tuần qua</string>
+    <string name="trending_section_explore">Khám phá</string>
+    <string name="trending_section_search">Tìm kiếm</string>
+    <string name="trending_week_chip">Tuần %1$s</string>
+    <string name="trending_empty_users_weekly">Chưa có ai tăng điểm trong tuần này.</string>
+    <string name="trending_empty_users_alltime">Chưa có dữ liệu xếp hạng.</string>
+    <string name="trending_empty_hashtag_weekly">Chưa có Hashtag nào tăng điểm trong tuần này.</string>
+    <string name="trending_empty_hashtag_alltime">Chưa có dữ liệu xếp hạng.</string>
+    <string name="trending_search_placeholder">Tìm hashtag hoặc bài viết…</string>
+    <string name="trending_search_type_post">Bài viết</string>
+    <string name="trending_search_type_hashtag">Hashtag</string>
+    <string name="trending_search_sort_newest">Mới nhất</string>
+    <string name="trending_search_sort_trending">Thịnh hành</string>
+    <string name="trending_search_hint">Nhập từ khoá để tìm Hashtag hoặc bài viết.</string>
+    <string name="trending_search_empty_posts">Không tìm thấy bài viết phù hợp.</string>
+    <string name="trending_search_empty_hashtags">Không tìm thấy Hashtag phù hợp.</string>
+    <string name="trending_usage_count">%1$s lượt dùng</string>
+    <string name="trending_hashtag_posts_empty">Chưa có bài viết nào dùng hashtag này.</string>
+    <string name="trending_growth_label">Điểm tuần</string>
+    <string name="trending_account_score_label">Tổng điểm</string>
+    <string name="trending_hashtag_score_label">Điểm tag</string>
+    <string name="trending_search_scope_label">Phạm vi</string>
+    <string name="trending_search_sort_label">Sắp xếp</string>
+
+    <!-- Cài đặt tối thiểu ở M1 (đổi giao diện & tài khoản) -->
+    <string name="settings_appearance_title">Giao diện</string>
+    <string name="settings_account_section">Tài khoản</string>
+    <string name="settings_connection_section">Kết nối máy chủ</string>
+    <string name="settings_account_tag_unset">Chưa đặt @tag</string>
+    <string name="settings_account_status">Trạng thái: %1$s</string>
+    <string name="settings_account_group">Nhóm tài khoản: %1$s</string>
+    <string name="settings_account_score">Điểm tài khoản: %1$s</string>
+    <string name="settings_more_soon">Các cài đặt chỉnh sửa hồ sơ, ảnh bìa và bảo mật sẽ được mở khóa ở các bước tiếp theo.</string>
+
+    <!-- Tương tác, Bình luận, Chia sẻ, Ghim & Soạn bài (M2) -->
+    <string name="fab_create_post">Viết bài mới</string>
+    <string name="action_more_options">Tuỳ chọn khác</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_delete">Xoá</string>
+    <string name="action_insert">Chèn</string>
+    <string name="share_chooser_title">Chia sẻ qua</string>
+
+    <string name="comment_input_placeholder">Viết bình luận…</string>
+    <string name="comment_send_button">Gửi</string>
+    <string name="comment_edit_title">Chỉnh sửa bình luận</string>
+    <string name="comment_delete_title">Xoá bình luận?</string>
+    <string name="comment_delete_message">Bình luận này sẽ bị xoá vĩnh viễn.</string>
+    <string name="comment_action_edit">Sửa bình luận</string>
+    <string name="comment_action_delete">Xoá bình luận</string>
+    <string name="comment_sign_in_prompt">Đăng nhập để bình luận, tương tác và chia sẻ bài viết.</string>
+    <string name="comment_deleted_ok">Đã xoá bình luận.</string>
+    <string name="comment_updated_ok">Đã cập nhật bình luận.</string>
+    <string name="comment_char_counter">%1$d / %2$d</string>
+
+    <string name="post_action_pin">Ghim lên hồ sơ</string>
+    <string name="post_action_unpin">Gỡ ghim khỏi hồ sơ</string>
+    <string name="post_action_edit">Chỉnh sửa bài viết</string>
+    <string name="post_action_delete">Xoá bài viết</string>
+    <string name="post_delete_title">Xoá bài viết?</string>
+    <string name="post_delete_message">Bài viết cùng toàn bộ bình luận liên quan sẽ bị xoá vĩnh viễn.</string>
+    <string name="post_deleted_ok">Đã xoá bài viết.</string>
+    <string name="post_pinned_ok">Đã ghim bài viết lên trang cá nhân.</string>
+    <string name="post_unpinned_ok">Đã gỡ ghim bài viết.</string>
+
+    <string name="composer_create_post_title">Tạo bài viết mới</string>
+    <string name="composer_edit_post_title">Chỉnh sửa bài viết</string>
+    <string name="composer_create_blog_title">Tạo bài blog mới</string>
+    <string name="composer_edit_blog_title">Chỉnh sửa bài blog</string>
+    <string name="composer_title_label">Tiêu đề (%1$d–%2$d ký tự)</string>
+    <string name="composer_title_placeholder">Nhập tiêu đề bài viết…</string>
+    <string name="composer_cover_label">Ảnh bìa (URL https://, tuỳ chọn)</string>
+    <string name="composer_cover_placeholder">https://...</string>
+    <string name="composer_cover_clear">Xoá ảnh bìa</string>
+    <string name="composer_hashtags_label">Hashtag (tuỳ chọn)</string>
+    <string name="composer_hashtags_placeholder">#tin_tức #côngnghệ</string>
+    <string name="composer_hashtags_helper">Mỗi hashtag bắt đầu bằng "#", cách nhau bởi khoảng trắng (tối đa %1$d hashtag).</string>
+    <string name="composer_content_label">Nội dung bài viết</string>
+    <string name="composer_content_placeholder">Nhập nội dung bài viết…</string>
+    <string name="composer_content_chars">%1$s / %2$s ký tự HTML</string>
+    <string name="composer_preview_toggle">Xem trước</string>
+    <string name="composer_edit_toggle">Soạn thảo</string>
+    <string name="composer_publish_button">Đăng bài</string>
+    <string name="composer_save_button">Lưu thay đổi</string>
+    <string name="composer_submitting">Đang lưu…</string>
+    <string name="composer_discard_title">Huỷ nội dung đang soạn?</string>
+    <string name="composer_discard_message">Các thay đổi chưa lưu sẽ bị mất nếu bạn rời khỏi trang này.</string>
+    <string name="composer_discard_confirm">Rời khỏi</string>
+    <string name="composer_empty_content_error">Vui lòng nhập nội dung bài viết.</string>
+    <string name="composer_insert_link_title">Chèn liên kết</string>
+    <string name="composer_insert_image_title">Chèn ảnh theo URL</string>
+    <string name="composer_url_label">Đường dẫn (https://)</string>
+    <string name="composer_link_text_label">Chữ hiển thị</string>
+    <string name="composer_alt_text_label">Mô tả ảnh (tuỳ chọn)</string>
+    <string name="composer_invalid_url">Vui lòng nhập đường dẫn hợp lệ.</string>
+    <string name="composer_media_note">Ảnh hoặc nội dung nhúng cần sử dụng đường dẫn https:// thuộc danh sách nguồn cho phép.</string>
+    <string name="composer_toolbar_h2">H2</string>
+    <string name="composer_toolbar_h3">H3</string>
+    <string name="composer_toolbar_bold">Đậm</string>
+    <string name="composer_toolbar_italic">Nghiêng</string>
+    <string name="composer_toolbar_quote">Trích dẫn</string>
+    <string name="composer_toolbar_list">Danh sách</string>
+    <string name="composer_toolbar_code">Mã</string>
+    <string name="composer_toolbar_link">Liên kết</string>
+    <string name="composer_toolbar_image">Ảnh</string>
+
+    <!-- Cài đặt quản lý tài khoản, Khách thăm & Bảo mật (M3) -->
+    <string name="reauth_empty_password">Vui lòng nhập mật khẩu.</string>
+    <string name="settings_manage_section">Quản lý tài khoản</string>
+    <string name="settings_account_info_title">Thông tin tài khoản</string>
+    <string name="settings_account_info_subtitle">Ảnh đại diện, ảnh bìa, tên hiển thị, tiểu sử, @tag và tên thật</string>
+    <string name="settings_visitors_title">Khách ghé thăm hồ sơ</string>
+    <string name="settings_visitors_subtitle">Tối đa 50 người đã đăng nhập ghé thăm gần nhất</string>
+    <string name="settings_security_title">Bảo mật &amp; tài khoản</string>
+    <string name="settings_security_subtitle">Đổi mật khẩu hoặc yêu cầu xoá vĩnh viễn tài khoản</string>
+
+    <string name="account_info_title">Thông tin tài khoản</string>
+    <string name="account_image_processing">Đang xử lý ảnh…</string>
+    <string name="account_avatar_section">Ảnh đại diện</string>
+    <string name="account_avatar_button">Chọn / chỉnh ảnh đại diện</string>
+    <string name="account_avatar_crop_title">Cắt ảnh đại diện (1:1)</string>
+    <string name="account_avatar_save">Lưu ảnh đại diện</string>
+    <string name="account_avatar_updated">Đã cập nhật ảnh đại diện.</string>
+
+    <string name="account_cover_section">Ảnh bìa</string>
+    <string name="account_cover_upload">Tải ảnh lên</string>
+    <string name="account_cover_url">Dùng đường dẫn</string>
+    <string name="account_cover_adjust">Điều chỉnh</string>
+    <string name="account_cover_remove">Gỡ ảnh bìa</string>
+    <string name="account_cover_removing">Đang gỡ…</string>
+    <string name="account_cover_updated">Đã cập nhật ảnh bìa.</string>
+    <string name="account_cover_crop_saved">Đã lưu vị trí ảnh bìa.</string>
+    <string name="account_cover_removed">Đã gỡ ảnh bìa.</string>
+    <string name="account_cover_load_error">Không tải được ảnh bìa từ đường dẫn hiện tại. Hãy chọn ảnh khác hoặc gỡ ảnh bìa.</string>
+    <string name="account_cover_new_title">Ảnh bìa mới</string>
+    <string name="account_cover_adjust_title">Điều chỉnh ảnh bìa</string>
+    <string name="account_cover_adjust_hint">Kéo để chọn vị trí và kéo thanh thu phóng bên dưới (tỉ lệ 3:1).</string>
+    <string name="account_cover_save_image">Lưu ảnh bìa</string>
+    <string name="account_cover_save_position">Lưu vị trí</string>
+    <string name="account_cover_reset">Đặt lại</string>
+    <string name="account_cover_zoom_label">Thu phóng</string>
+    <string name="account_cover_url_title">Dùng ảnh bìa từ đường dẫn</string>
+    <string name="account_cover_url_label">Đường dẫn ảnh (https://…)</string>
+    <string name="account_cover_url_hint">Chỉ nhận đường dẫn https từ các domain Twelve cho phép nhúng.</string>
+    <string name="account_cover_empty">Chưa có ảnh bìa (tỉ lệ 3:1)</string>
+
+    <string name="account_real_name_label">Tên thật</string>
+    <string name="account_real_name_helper">Chỉ dùng để xác minh tài khoản, không hiển thị công khai.</string>
+    <string name="account_real_name_reveal">Hiện</string>
+    <string name="account_real_name_hide">Ẩn</string>
+    <string name="account_real_name_edit">Đổi</string>
+    <string name="account_real_name_reveal_title">Hiện tên thật</string>
+    <string name="account_real_name_reveal_desc">Nhập mật khẩu để xem tên thật. Tên sẽ tự ẩn lại sau 1 phút.</string>
+    <string name="account_real_name_edit_title">Đổi tên thật</string>
+    <string name="account_real_name_edit_desc">Nhập tên thật mới và mật khẩu để xác nhận.</string>
+    <string name="account_real_name_new_label">Tên thật mới</string>
+    <string name="account_real_name_empty_value">(chưa có)</string>
+    <string name="account_real_name_updated">Đã cập nhật tên thật.</string>
+
+    <string name="account_tag_label">Tag Name Search</string>
+    <string name="account_tag_dialog_title">Đổi Tag Name Search</string>
+    <string name="account_tag_new_label">Tag Name mới</string>
+    <string name="account_tag_next">Đổi tag</string>
+    <string name="account_tag_confirm_title">Đổi Tag Name Search?</string>
+    <string name="account_tag_confirm_warning">Link hồ sơ bạn đã chia sẻ sẽ không còn dùng được và tag cũ có thể bị người khác nhận.</string>
+    <string name="account_tag_old_link">Link hiện tại: %1$s</string>
+    <string name="account_tag_new_link">Link mới: %1$s</string>
+    <string name="account_tag_confirm_button">Vẫn đổi tag</string>
+    <string name="account_tag_checking">Đang kiểm tra…</string>
+    <string name="account_tag_available">Có thể sử dụng.</string>
+    <string name="account_tag_taken">Tag Name Search này đã có người dùng.</string>
+    <string name="account_tag_reserved">Tag Name Search này được dành riêng.</string>
+    <string name="account_tag_same">Đây là Tag Name hiện tại của bạn.</string>
+    <string name="account_tag_invalid">Chỉ dùng chữ thường, số, gạch dưới (3–20 ký tự).</string>
+    <string name="account_tag_updated">Đã đổi Tag Name Search.</string>
+
+    <string name="account_profile_section">Thông tin hồ sơ</string>
+    <string name="account_display_name_label">Tên hiển thị</string>
+    <string name="account_birthday_label">Ngày sinh (YYYY-MM-DD)</string>
+    <string name="account_birthday_pick">Chọn ngày</string>
+    <string name="account_gender_label">Giới tính</string>
+    <string name="account_gender_male">Nam</string>
+    <string name="account_gender_female">Nữ</string>
+    <string name="account_gender_other">Khác</string>
+    <string name="account_country_label">Quốc gia</string>
+    <string name="account_bio_label">Tiểu sử</string>
+    <string name="account_bio_placeholder">Giới thiệu ngắn về bạn…</string>
+    <string name="account_bio_counter">%1$d/%2$d ký tự · %3$d/%4$d dòng</string>
+    <string name="account_save_changes">Lưu thay đổi</string>
+    <string name="account_saved_ok">Đã lưu thông tin tài khoản.</string>
+
+    <string name="account_extras_section">Thông tin mở rộng</string>
+    <string name="account_extras_hint">Bật hoặc tắt các mục hiển thị công khai trong hộp Xem thêm của hồ sơ.</string>
+    <string name="account_extras_private_tag">Riêng tư</string>
+    <string name="account_extras_save_error">Không cập nhật được mục hiển thị.</string>
+
+    <string name="visitors_title">Khách ghé thăm</string>
+    <string name="visitors_empty">Chưa có ai ghé thăm hồ sơ của bạn.</string>
+    <string name="visitors_footer_note">Chỉ hiển thị %1$d người ghé thăm gần nhất (mỗi người một lần) và chỉ ghi nhận người đã đăng nhập.</string>
+    <string name="profile_edit_button">Chỉnh sửa</string>
+    <string name="profile_visitors_button">Khách thăm</string>
+
+    <string name="security_title">Bảo mật &amp; tài khoản</string>
+    <string name="security_change_password_title">Đổi mật khẩu</string>
+    <string name="security_change_password_desc">Nhập mật khẩu hiện tại để đặt mật khẩu mới. Các thiết bị khác có thể bị yêu cầu đăng nhập lại.</string>
+    <string name="security_current_password_label">Mật khẩu hiện tại</string>
+    <string name="security_new_password_label">Mật khẩu mới</string>
+    <string name="security_confirm_password_label">Nhập lại mật khẩu mới</string>
+    <string name="security_password_helper">Tối thiểu 8 ký tự.</string>
+    <string name="security_change_password_button">Đổi mật khẩu</string>
+    <string name="security_changing_password">Đang đổi…</string>
+    <string name="security_password_changed_ok">Đã đổi mật khẩu.</string>
+    <string name="security_password_weak_error">Mật khẩu mới quá yếu. Hãy dùng ít nhất 8 ký tự.</string>
+    <string name="security_delete_title">Xoá tài khoản</string>
+    <string name="security_delete_warning">Xoá tài khoản là vĩnh viễn và không thể hoàn tác. Toàn bộ bài viết, blog, ảnh và Tag Name Search sẽ bị xoá hoặc giải phóng.</string>
+    <string name="security_delete_sa_warning">Tài khoản quản trị (SA) không thể tự xoá. Hãy hạ quyền tài khoản này trước.</string>
+    <string name="security_delete_button">Xoá tài khoản</string>
+    <string name="security_delete_confirm_title">Xác nhận xoá tài khoản</string>
+    <string name="security_delete_confirm_desc">Nhập mật khẩu để xác nhận. Sau bước này, tài khoản sẽ bị khoá ngay và dữ liệu bị xoá vĩnh viễn.</string>
+    <string name="security_delete_checkbox">Tôi hiểu rằng việc này không thể hoàn tác.</string>
+    <string name="security_delete_submit">Xoá vĩnh viễn</string>
+    <string name="security_delete_accepted">Đã tiếp nhận yêu cầu xoá tài khoản. Dữ liệu của bạn đang được xoá.</string>
+</resources>

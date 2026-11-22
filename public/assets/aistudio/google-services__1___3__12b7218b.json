@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "895442518467",
+    "project_id": "twelveta-b038f",
+    "storage_bucket": "twelveta-b038f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895442518467:android:ce5bedffe50ac989433d76",
+        "android_client_info": {
+          "package_name": "com.onemda.twelve"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiRXAYdcq2uDaiPgl-cyhkzHAPlODlhT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895442518467:android:5ac9a2e9344dad2f433d76",
+        "android_client_info": {
+          "package_name": "com.twelve.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiRXAYdcq2uDaiPgl-cyhkzHAPlODlhT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Twelve",
+  "description": "Ứng dụng Android chính thức của mạng xã hội Twelve.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
